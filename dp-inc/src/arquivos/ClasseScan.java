@@ -3,10 +3,11 @@
  */
 package arquivos;
 
+import java.util.Scanner;
 
 /**
  * @author Fernando
- *
+ * 
  */
 public class ClasseScan {
 
@@ -14,7 +15,14 @@ public class ClasseScan {
      * @param args
      */
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
+
+        System.out.println("Digite alguma coisa");
+
+        Scanner scanner = new Scanner(System.in);
+
+        String texto = scanner.nextLine();
+
+        System.out.println(texto);
 
     }
 
